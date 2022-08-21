@@ -1,0 +1,54 @@
+.pinned {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 0px 0.2px 2px white;
+  border-radius: 15px;
+  height: 90px;
+  width: 380px;
+  padding: 7px;
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  gap: 05px;
+  align-items: center;
+  justify-content: flex-start;
+  color: var(--secondary-text-color);
+}
+
+.title > a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: medium;
+  color: rgb(78, 78, 234);
+}
+.public {
+  width: 3rem;
+  margin-top: 12px;
+  margin-left: 2px;
+  border: 1px solid grey;
+  border-radius: 20px;
+  font-size: 10px;
+  padding: 4px;
+  font-weight: 700;
+}
+.tool__color {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-top: -4px;
+  border-radius: 20px;
+  border: 1px solid grey;
+}
+.pinned__tools {
+  justify-content: flex-start;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  color: var(--secondary-text-color);
+  margin-top: -6px;
+}
+.pinned__drag {
+  margin-top: 10px;
+  color: var(--secondary-text-color);
+}

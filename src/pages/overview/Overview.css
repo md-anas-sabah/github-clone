@@ -1,0 +1,15 @@
+.overview {
+  margin: 15px 0 0 0;
+  width: 500px;
+}
+.overview > p {
+  color: var(--secondary-text-color);
+  font-size: 15px;
+  font-weight: 600;
+}
+.overview__pinned {
+  display: grid;
+  grid-template-columns: 60px 60px;
+  column-gap: 350px;
+  row-gap: 20px;
+}
